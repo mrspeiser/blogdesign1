@@ -1,0 +1,98 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #454545;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+}
+
+li {
+
+}
+
+ul li {
+  list-style: none;
+  float: left;
+  margin-right: 20px;
+  font-size: 80px;
+  font-family: 'Bowlby One SC', cursive;
+}
+
+ul li:hover {
+  color: black;
+}
+
+header {
+  height: 120px;
+  width: 100%;
+  background-color: #999999;
+}
+
+footer {
+  height: 80px;
+  border-radius: none;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+/*.slide-window {
+  height: 480px;
+  width: 720px;
+  background-color: green;
+  margin: 0 auto;
+}*/
+
+.circle-image {
+  height: 350px;
+  width: 350px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+
+}
+
+.section2 {
+  background-color: green;
+  height: 450px;
+}
+
+@media (max-width: 730px) {
+  .slide-window {
+    background-color: blue;
+    width : 400px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 1080px) {
+  ul li {
+    font-size: 60px;
+  }
+
+}
+
+@media (max-width:847px) {
+  header {
+    height: 200px;
+  }
+}
+
+@media (max-width: 525px) {
+  ul li {
+    font-size: 45px;
+  }
+}
