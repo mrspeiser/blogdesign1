@@ -15,22 +15,28 @@ a {
 
 ul {
   height: 100%;
-  display: flex;
-  align-items: center;
+  /*display: flex;*/
+  /*align-items: center;*/
   margin: 0;
 }
 
-li {
+nav {
+  height: 100%;
 
+}
+
+.margintop20 {
+  margin-top: 20px;
 }
 
 ul li {
   list-style: none;
   float: left;
   /*margin-right: 25px;*/
-  font-size: 30px;
-  font-family: 'Sarala';
+  /*font-size: 30px;
+  font-family: 'Sarala';*/
 }
+
 
 ul li:hover {
   color: black;
