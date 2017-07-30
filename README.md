@@ -6,7 +6,7 @@ trying to copy/redesign https://www.helpscout.net/blog/#culture for practice pur
 1. Navbar
   - Pushes all content downward on expand
   - dropdown menus
-  - Searchbar opens new modal/page on same page, no new url
+  - Searchbar
   - Some sort of brand logo
   
 2. Carousel
