@@ -1,175 +1,50 @@
-html {
-  margin: 0;
-  padding: 0;
-}
+    nav ul li {
+      text-align: center;
+    }
 
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #454545;
-}
+    footer ul li{
+      list-style: none;
+      padding: 5px;
+    }
 
-a {
-  text-decoration: none;
-}
+    h4 {
+      font-size: 14px;
+    }
+    .marg20l20r {
+      margin-left: 20px;
+      margin-right: 20px;
+      }
 
-ul {
-  height: 100%;
-  /*display: flex;*/
-  /*align-items: center;*/
-  margin: 0;
-}
+    .slide-container {
+      height: 425px;
+      width: 100%;
+      background-color: blue;
+      margin: 0 auto;
+    }
+    .green {
+      background-color: green;
+    }
+    .purple {
+      background-color: purple;
+    }
+    .navbarfix1 {
+      margin-top: 20px;
+      border: 0px;
+      background-color: white;
+    }
+    .margtop20 {
+      margin-top: 20px;
+    }
 
-nav {
-  height: 100%;
-
-}
-
-.margintop20 {
-  margin-top: 20px;
-}
-
-ul li {
-  list-style: none;
-  float: left;
-  /*margin-right: 25px;*/
-  /*font-size: 30px;
-  font-family: 'Sarala';*/
-}
-
-
-ul li:hover {
-  color: black;
-}
-
-header {
-  height: 90px;
-  width: 100%;
-  background-color: white;
-
-
-}
-
-section {
-  background-color: #D3D3D3;
-
-}
-
-footer {
-  height: 80px;
-  border-radius: none;
-  padding-top: 25px;
-  padding: 0;
-  background-color: white;
-  border-top: 1px solid gray;
-}
-
-/*.slide-window {
-  height: 480px;
-  width: 720px;
-  background-color: green;
-  margin: 0 auto;
-}*/
-
-.slide-container {
-  height: 425px;
-  width: 100%;
-  background-color: blue;
-  /*border-radius: 50%;*/
-  margin: 0 auto;
-  /*margin-top: 60px;
-  margin-bottom: 60px; */
-
-}
-
-.section2 {
-  display: flex;
-  background-color: white;
-  justify-content: center;
-  padding-bottom: 50px;
-
-
-}
-
-.logo {
-  font-family: 'Fredoka One';
-}
-
-.green {
-  background-color: green;
-}
-.purple {
-  background-color: purple;
-}
-.blue {
-  background-color: blue;
-}
-.red {
-  background-color: red;
-}
-.yellow {
-  background-color: yellow;
-}
-.orange {
-  background-color: orange;
-}
-.post a {
-
-  background-color: green;
-  padding: 5px;
-
-}
-.postp {
-  background-color: purple;
-  max-height: 400px;
-  height: 300px;
-  border-radius: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
-  margin: 10px 10px 10px 10px;
-  width: 320px;
-}
-
-.link {
-  font-size: 15px;
-  margin-right: 34px;
-  font-family: 'Sarala';
-  /*font-family: 'Fredoka One';*/
-  /*font-family: 'Alfa Slab One';*/
-}
-
-.logo {
-  margin-left: 25px;
-  margin-right: 40px;
-}
-
-.margintop {
-
-}
-
-/*@media (max-width: 730px) {
-  .slide-window {
-    background-color: blue;
-    width : 400px;
-    height: 400px;
-  }
-}
-
-@media (max-width: 1080px) {
-  ul li {
-    font-size: 60px;
-  }
-
-}
-
-@media (max-width:847px) {
-  header {
-    height: 200px;
-  }
-}
-
-@media (max-width: 525px) {
-  ul li {
-    font-size: 45px;
-  }
-}*/
+    .margin0 {
+      margin: 0px;
+    }
+    .listsnone {
+      text-align: center;
+    }
+    .padding5 {
+      padding: 5px;
+    }
+    .pad0 {
+      padding: 0px;
+    }
