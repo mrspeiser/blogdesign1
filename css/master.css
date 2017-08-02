@@ -15,17 +15,41 @@
       margin-right: 20px;
       }
 
+    .slider {
+      width: 100%;
+      overflow: hidden;
+    }
+
     .slide-container {
       height: 425px;
-      width: 100%;
-      background-color: blue;
+      width: 500%;
+      background-color: black;
       margin: 0 auto;
+      padding: 0px;
+      overflow: hidden;
     }
+
+    .slide-container .slide {
+      float: left;
+    }
+
+    .slide {
+      height: 100%;
+      display: inline-block;
+    
+    }
+
     .green {
       background-color: green;
     }
     .purple {
       background-color: purple;
+    }
+    .blue {
+      background-color: blue;
+    }
+    .red {
+      background-color: red;
     }
     .navbarfix1 {
       margin-top: 20px;
