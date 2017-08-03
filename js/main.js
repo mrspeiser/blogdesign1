@@ -22,4 +22,16 @@ $(function(){
     
   }, pause);
 
+
+
+$("img").on('mouseenter', function(){
+  $(".description").css('opacity', 1)
+});
+
+// $("img").on('mouseleave', function(){
+//   $(".description").css('opacity', 0);
+// });
+
+  
+
 });
