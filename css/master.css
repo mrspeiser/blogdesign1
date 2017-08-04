@@ -8,16 +8,66 @@
 
     footer ul li{
       list-style: none;
+
       padding: 5px;
     }
 
     h4 {
       font-size: 14px;
     }
+
+    h5 {
+      font-size: 16px;
+    }
+    section {
+      background-color: #E8E5E5;
+    }
+
+    section ul{
+      height: 100%;
+    }
+
+    section ul li {
+      font-size: 20px;
+      height: 100%;
+    }
+
+    section ul li a{
+      height: 100%;
+      padding: 0px;
+    }
+
+    a p {
+      position: absolute;
+      opacity: 0;
+      background-color: white;
+      width: 100%;
+      transition: all;
+      transition-duration: 1s;
+    }
+
+    .bottom {
+      translate
+      bottom: 100px;
+      opacity: 1;
+    }
+
+    .margright {
+      margin-right: 25px;
+    }
+
+    .margleft {
+      margin-left: 25px;
+    }
+
+    .tabsnav {
+      height: 60px;
+    }
+
     .marg20l20r {
       margin-left: 20px;
       margin-right: 20px;
-      }
+    }
 
     .slider {
       width: 100%;
@@ -40,7 +90,6 @@
     .slide {
       height: 100%;
       display: inline-block;
-    
     }
 
     .green {
@@ -64,6 +113,14 @@
       margin-top: 20px;
     }
 
+    .margtop60 {
+      margin-top: 60px;
+    }
+
+    .margtop100 {
+      margin-top: 100px;
+    }
+
     .margin0 {
       margin: 0px;
     }
@@ -77,15 +134,8 @@
       padding: 0px;
     }
 
-    .description {
-      position: absolute;
-      opacity: 0;
-      transition-property: all;
-      transition-duration: 1s;
-      bottom: 35%;
-      background-color: orange;
+    .thumb {
+      height: 300px;
+      max-height: 400px;
     }
 
-    .opacity1 {
-      opacity: 1;
-    }
